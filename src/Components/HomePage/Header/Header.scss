@@ -1,0 +1,60 @@
+/* Header.css */
+.header {
+    background-color: #6678ec;
+    border-bottom: 1px solid #dee2e6;
+    width: 100% !important;
+    color: white;
+    font-size: 17px;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.crypto-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 14px;
+}
+
+.crypto-price,
+.crypto-market-cap,
+.crypto-volume {
+    font-weight: bold;
+}
+
+.crypto-price {
+    color: #75e68f;
+    margin: 5px;
+}
+
+.crypto-market-cap {
+    color: #ffc107;
+    margin: 5px;
+}
+
+.crypto-volume {
+    color: #ffea00;
+    margin: 5px;
+}

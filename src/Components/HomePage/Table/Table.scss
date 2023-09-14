@@ -1,0 +1,51 @@
+/* CryptoTable.scss */
+
+.crypto-table {
+  margin: 20px;
+  width: 95%;
+  margin: auto;
+  margin-top: 40px;
+
+  table {
+
+    th,
+    td {
+      text-align: center;
+      font-size: 15px;
+    }
+
+    th {
+      background-color: #f8f9fa;
+      /* Bootstrap table header background color */
+      font-size: 17px;
+    }
+
+    img {
+      max-width: 30px;
+      max-height: 30px;
+    }
+  }
+}
+
+/* CryptoTable.scss */
+
+/* Existing styles for the CryptoTable component */
+.load-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  // border : 2px solid red;
+}
+
+.load-more-button {
+  background-color: #18c683;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
